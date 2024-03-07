@@ -1,4 +1,3 @@
-import { Banner } from "../assets/Banner";
 import { Transparent } from "../assets/Transparent";
 import { AnimatePresence, motion, Reorder } from "framer-motion";
 import { useEffect, useState } from "preact/hooks";
@@ -170,7 +169,6 @@ export function Proxy() {
       <div class="flex h-full w-16 flex-col border-r-2 border-bg-secondary bg-bg-primary transition-all sm:w-64">
         <div class="flex h-16 w-full items-center justify-center border-b-2 border-bg-secondary">
           <a href="/">
-            <Banner class="hidden h-6 sm:block" />
             <Transparent class="block h-6 sm:hidden" />
           </a>
         </div>
